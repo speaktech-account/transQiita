@@ -261,6 +261,7 @@ def patch(url, params, proxies, headers):
     return response
 
 def verify_response(response):
+    """Verify response status."""
     status_code = response.status_code
     if status_code not in range(200,202):
         print("Error: Qiita APIへのリクエストに失敗しました。")
