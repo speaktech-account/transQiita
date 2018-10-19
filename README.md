@@ -1,6 +1,7 @@
 This application translates your articles on Qiita into English ones with googletrans, and 
 upload them to Qiita automatically. 
 
+```
 Example:
     $ python transQiita.py  [-h] [--gist] [--tweet] [--private] [--auto] [--token TOKEN]
 
@@ -18,3 +19,4 @@ Requirements:
     e.g.
     $ pip install googletrans
     $ export QIITA_ACCESS_TOKEN='YOUR QIITA ACCESS TOKEN'
+```
