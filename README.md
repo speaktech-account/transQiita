@@ -3,7 +3,7 @@ This application translates your articles on Qiita into English ones with google
 upload them to Qiita automatically. 
 
 ## Requirements
-googletrans, Qiita access token(Set as Environment variable QIITA_ACCESS_TOKEN)
+[googletrans](https://pypi.org/project/googletrans/), Qiita access token(Set as Environment variable QIITA_ACCESS_TOKEN)
     
 ```
 e.g.
@@ -17,7 +17,7 @@ $ export QIITA_ACCESS_TOKEN='YOUR QIITA ACCESS TOKEN'
 $ python transQiita.py  [-h] [--gist] [--tweet] [--private] [--auto] [--token TOKEN]
 ```
 
-### Optional Arguments
+## Optional Arguments
 
 ```
 -h, --help     show this help message and exit
@@ -27,6 +27,9 @@ $ python transQiita.py  [-h] [--gist] [--tweet] [--private] [--auto] [--token TO
 --auto         execute translation and upload automatically
 --token TOKEN  set Qiita's access token
 ```
+
+## Restrictions
+1. This application does not translate code blocks to prevent indentation from collapsing by translation process.
 
 # Author
 [speaktech](https://qiita.com/speaktech)
