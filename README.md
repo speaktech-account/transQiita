@@ -32,6 +32,10 @@ $ python transQiita.py  [-h] [--gist] [--tweet] [--private] [--auto] [--token TO
 1. **This application does not translate code blocks to prevent indentation from collapsing by translation process.**
 2. **Decoration by markdown using symbols like ** , ~~ etc. does not work after translation process.**
 
+## Anything Else
+I wrote an article below to explain this application more in details.
+https://qiita.com/speaktech/items/f1c47ab15c17d873fd03
+
 # Author
 [speaktech](https://qiita.com/speaktech)
 
