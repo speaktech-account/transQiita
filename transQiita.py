@@ -86,7 +86,8 @@ class QiitaArticle:
 
     def has_banner(self,articleid):
         """Verifies whether article has a banner with the original article's id."""
-        if self._body.find(articleid) >= 0:
+        articleid = '[' + articleid + ']'
+        if self._body.find(articleid) == 57:
             return True
         else:
             return False
